@@ -1,0 +1,22 @@
+{
+  "name": "function-coding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wuhaohao1234/function-coding.git",
+  "author": "wuhaohao1234 <1611499758@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsc -w",
+    "build": "npx tsc",
+    "lint": "npx tslint --project tslint.json",
+    "start": "npx docsify serve ./docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
